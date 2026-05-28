@@ -58,3 +58,7 @@ Plugin esenciuiales  : Amplian las funcionalidades
     - JOB_NAME:
     -WORKSPACE
     - GIT_COMMIT
+
+# CONFIGURACION DE NOTIFICACIONES EMAIL Y SLACK
+- verificar que se tengan los plugins instalados Emailk Extension pluguin  Mail Plugin
+- Configurar smtp 
