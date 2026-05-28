@@ -45,3 +45,16 @@ app web -> un dev hace cambios en ell codigo -> Sube los cambios a github -> Jen
 - Webhook -> Dispara el job cuando hay un cambio en el codigo 
 - Programacion cron -> se ejecuta en intervalos de tiempo
 - Disparo por otro Job -> Un Job podria ejecutar otro job cuando termine
+
+# Plugin 
+Plugin esenciuiales  : Amplian las funcionalidades 
+
+** Configuracion Avanzada de Proyectos Freestyle **
+- Par{ametros en jobs (ejemplo: seleccion de ramas)}
+- uso diversos parametros que se puedden elegir a la hora de la ejecucion 
+- variables de entorno permiten reutilizar variables dentro e un job
+- jenkins tiene variables por defecto 
+    - BUILD_NUMBER
+    - JOB_NAME:
+    -WORKSPACE
+    - GIT_COMMIT
