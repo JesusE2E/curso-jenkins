@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "activando el entorno virtual"
 # Verificar si el entorno virtual existe 
-if [! "-d venv"];then
+if [! -d "venv"];then
     python3 -m venv venv 
 fi
 
