@@ -1,1 +1,1 @@
-"Esta es la ejecucion de mi archivo saludo"
+echo: "Esta es la ejecucion de mi archivo saludo"
