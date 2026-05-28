@@ -32,3 +32,16 @@ app web -> un dev hace cambios en ell codigo -> Sube los cambios a github -> Jen
 -Pipeline -> usado para los flujos de CI  CD -> Mas avanzados con script en groovy
 -Multibranch pipeline -> usado para proyectos con varias ramas en git 
 -Maven Project -> para proyectos en maven
+# Build
+----Un build es la ejecucion de un JOB
+-obtener el codigo fuente 
+- ejecuta los pasos que se han definido
+- registra la salida en el console output
+- (opcional) guardda los artefactos
+- muestra el resultado
+
+# VConfiguracion para disparo automatico
+- Polling SCM -> Revisa si hay cambios si hay cambio en el repo git
+- Webhook -> Dispara el job cuando hay un cambio en el codigo 
+- Programacion cron -> se ejecuta en intervalos de tiempo
+- Disparo por otro Job -> Un Job podria ejecutar otro job cuando termine
