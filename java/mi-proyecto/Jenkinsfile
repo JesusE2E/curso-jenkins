@@ -13,6 +13,8 @@ pipeline{
     }
      stage('Deploy'){
         steps{
+            cd "java"
+            cd "mi-proyecto"
             echo "Simulando un despliegue a un servidor de aplicaciones"
         }
     }
