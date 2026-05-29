@@ -3,6 +3,8 @@ pipeline{
    stages{
     stage('Build'){
         steps{
+            sh 'cd java'
+             sh 'mi-proyecto'
             sh 'mvn clean install'
         }
     }
@@ -13,8 +15,7 @@ pipeline{
     }
      stage('Deploy'){
         steps{
-            cd java
-           
+         
             echo "Simulando un despliegue a un servidor de aplicaciones"
         }
     }
