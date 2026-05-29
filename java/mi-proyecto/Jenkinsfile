@@ -5,6 +5,7 @@ pipeline{
         steps{
            sh 'ls'
              sh 'cd java && cd mi-proyecto'
+             sh 'ls'
             sh 'mvn clean install'
         }
     }
