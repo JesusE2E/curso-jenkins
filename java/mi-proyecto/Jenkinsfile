@@ -4,9 +4,9 @@ pipeline{
     stage('Build'){
         steps{
            sh 'ls'
-             sh 'cd java && cd mi-proyecto'
+             sh 'cd java && cd mi-proyecto && mvn clean install'
              sh 'ls'
-            sh 'mvn clean install'
+
         }
     }
      stage('Test'){
